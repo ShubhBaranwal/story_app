@@ -39,8 +39,6 @@ export default function RootLayout({
       >
         {/* Navbar, Header, Footer REMOVED for Landing Page */}
         {children}
-        {/* Analytics kept as requested (or could be removed if 100% private really means no analytics, but usually apps track installs) */}
-        {/* <Analytics /> */}
       </body>
     </html>
   );

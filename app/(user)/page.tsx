@@ -26,6 +26,7 @@ export default function Home() {
     return (
         <main className="relative min-h-screen w-full flex flex-col items-center justify-center bg-[#050000] text-white overflow-hidden font-sans px-4">
             {/* Background Image Layer */}
+            {/* Background Image Layer */}
             <div className="absolute inset-0 z-0">
                 <Image
                     src="/image on bed.jpg"
@@ -34,15 +35,7 @@ export default function Home() {
                     priority
                     className="object-cover opacity-30 scale-110 blur-[2px]"
                 />
-                {/* Secondary Overlay Image for Texture */}
-                <div className="absolute inset-0 opacity-10 mix-blend-overlay">
-                    <Image
-                        src="/images.jpg"
-                        alt="Texture"
-                        fill
-                        className="object-cover"
-                    />
-                </div>
+
                 {/* Gradient Overlay for Fade Effect */}
                 <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black/95"></div>
             </div>
